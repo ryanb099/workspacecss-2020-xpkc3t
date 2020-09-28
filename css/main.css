@@ -172,8 +172,39 @@ footer{
 div.summary{
   display:none;
 }
-
-
+#zen-resources {
+  postiion: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: blanchedalmond
+}
+#zen-resources h3 {
+  display: none;
+}
+#zen-resources ul li{
+  display: inline-block;
+  padding: 2%;
+  background-color: aqua
+}
+#zen-resources a{
+  border: 0px;
+}
+p:active{
+  border: 5px solid brown;
+}
+p{
+  visibility: visible;
+}
+h3:hover p{
+  visibility: hidden;
+}
+li:first-of-type{
+  color: blue
+}
+p:first-letter{
+  font-size: 300%;
+}
 /** other decoration **/
 
 /**	05	Media  **/
